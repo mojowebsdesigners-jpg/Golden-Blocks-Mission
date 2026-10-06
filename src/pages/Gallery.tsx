@@ -149,7 +149,8 @@ export default function Gallery() {
             </AnimatePresence>
           </motion.div>
           <p className="mt-10 text-xs text-muted">
-            Photographs are used under their respective open licences; credits appear in each image viewer and on the <Link to="/credits" className="underline underline-offset-2 hover:text-white">image credits</Link> page.
+            Illustrative photographs of Seventh-day Adventist churches and gatherings around the world — not Golden Blocks projects. They are used under
+            their respective open licences; credits appear in each image viewer and on the <Link to="/credits" className="underline underline-offset-2 hover:text-white">image credits</Link> page.
           </p>
         </div>
         <Lightbox items={lightboxItems} index={open} onClose={() => setOpen(null)} onIndex={setOpen} />

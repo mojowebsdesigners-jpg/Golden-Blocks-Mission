@@ -32,9 +32,9 @@ export function PurposeSection() {
           <div className="relative lg:col-span-5">
             <ImageReveal
               src="/images/gallery/interiors-light-beam.webp"
-              srcSet="/images/gallery/interiors-light-beam-xs.webp 360w, /images/gallery/interiors-light-beam-sm.webp 720w, /images/gallery/interiors-light-beam-1000.webp 1000w, /images/gallery/interiors-light-beam.webp 1800w"
+              srcSet="/images/gallery/interiors-light-beam-xs.webp 480w, /images/gallery/interiors-light-beam-sm.webp 960w, /images/gallery/interiors-light-beam-1000.webp 1000w, /images/gallery/interiors-light-beam.webp 2400w"
               sizes="(min-width: 1024px) 32vw, 92vw"
-              alt="A beam of light falling across the floor of a quiet sanctuary"
+              alt="Kyambogo Seventh-day Adventist Church in Kampala, Uganda"
               className="aspect-[3/4] w-full lg:w-[88%]"
             />
             <div className="relative -mt-24 ml-auto w-[62%] border-8 border-night md:-mt-32">
@@ -49,7 +49,7 @@ export function PurposeSection() {
         <Parallax amount={16} className="h-[52vh] min-h-[340px] md:h-[78vh]">
           <img
             src="/images/gallery/interiors-concrete-nave.webp"
-            alt="A contemporary concrete nave drawing the eye toward the altar"
+            alt="The galleried sanctuary of an Adventist church"
             loading="lazy"
             decoding="async"
             className="h-full w-full object-cover"

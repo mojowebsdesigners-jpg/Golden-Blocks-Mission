@@ -50,7 +50,7 @@ export default function About() {
       {/* Why we exist — full-width image with scripture */}
       <section aria-labelledby="why-title" className="relative">
         <Parallax amount={18} className="h-[80svh] min-h-[480px]">
-          <img src="/images/gallery/interiors-stone-pews.webp" alt="Stone walls and long wooden pews in an African church, ready for worship" loading="lazy" decoding="async" className="h-full w-full object-cover" />
+          <img src="/images/gallery/interiors-stone-pews.webp" alt="A congregation gathered for Sabbath worship" loading="lazy" decoding="async" className="h-full w-full object-cover" />
         </Parallax>
         <div className="absolute inset-0 bg-gradient-to-t from-night via-night/40 to-night/70" />
         <div className="container-x absolute inset-x-0 bottom-0 pb-16 md:pb-24">

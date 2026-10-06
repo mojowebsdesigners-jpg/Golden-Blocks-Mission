@@ -10,7 +10,7 @@ export default function Credits() {
           <p className="eyebrow text-champagne">Attribution</p>
           <h1 className="display-lg mt-4">Image credits</h1>
           <p className="lede mt-6 max-w-2xl">
-            We are grateful to the photographers whose work appears on this website. Images are used under Creative Commons or public-domain terms and
+            We are grateful to the photographers whose work appears on this website. Photographs of churches and gatherings show Seventh-day Adventist congregations around the world and are illustrative, not Golden Blocks projects. Images are used under Creative Commons or public-domain terms and
             were colour-graded and resized for the web. Follow each source link for the original file and full licence.
           </p>
           <div className="mt-14 overflow-x-auto border border-white/10">

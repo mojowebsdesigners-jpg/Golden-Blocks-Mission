@@ -50,12 +50,12 @@ export default function Mission() {
             </div>
           </div>
           <div className="space-y-6 lg:col-span-6 lg:col-start-7">
-            <ImageReveal src="/images/gallery/construction-rising-frame.webp" alt="A concrete church frame rising on site" className="aspect-[4/3] w-full" />
+            <ImageReveal src="/images/gallery/construction-rising-frame.webp" alt="Volunteers building a new church on site" className="aspect-[4/3] w-full" />
             <div className="grid grid-cols-2 gap-6">
               <ImageReveal src="/images/gallery/construction-foundation-sm.webp" alt="Setting a foundation of concrete blocks" className="aspect-[3/4] w-full" />
               <ImageReveal src="/images/gallery/construction-mixing-mortar-sm.webp" alt="A builder mixing mortar on site" className="mt-16 aspect-[3/4] w-full" />
             </div>
-            <ImageReveal src="/images/gallery/architecture-brick-cross-facade.webp" alt="A completed brick church facade crowned with a cross" className="aspect-[16/10] w-full" />
+            <ImageReveal src="/images/gallery/architecture-brick-cross-facade.webp" alt="Kyambogo Seventh-day Adventist Church in Kampala, Uganda" className="aspect-[16/10] w-full" />
           </div>
         </div>
       </section>
@@ -80,7 +80,7 @@ export default function Mission() {
                 afterLabel="Renewed"
                 alt="Church interior"
               />
-              <p className="mt-3 text-xs text-muted">Illustrative imagery of two different buildings — not a single project.</p>
+              <p className="mt-3 text-xs text-muted">Illustrative: an Adventist church in Wrocław, Poland — not a Golden Blocks project.</p>
             </Reveal>
           </div>
         </div>
