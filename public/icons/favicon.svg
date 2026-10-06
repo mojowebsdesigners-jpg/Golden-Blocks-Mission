@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="409.5 182.5 656 656">
+<title>Golden Blocks Mission</title>
+<defs>
+  <linearGradient id="faceA" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDD13E"/><stop offset=".45" stop-color="#F6BF1A"/><stop offset="1" stop-color="#E5A908"/></linearGradient>
+  <linearGradient id="faceB" x1="0" y1="0" x2=".3" y2="1"><stop offset="0" stop-color="#FDD13E"/><stop offset=".35" stop-color="#F6BF1A"/><stop offset="1" stop-color="#E5A908"/></linearGradient>
+  <linearGradient id="faceC" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#FDD13E"/><stop offset=".4" stop-color="#F6BF1A"/><stop offset="1" stop-color="#D8A005"/></linearGradient>
+  <linearGradient id="chan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2A2A28"/><stop offset="1" stop-color="#363533"/></linearGradient>
+  <linearGradient id="wallL" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7E3A6"/><stop offset="1" stop-color="#D9B860"/></linearGradient>
+  <radialGradient id="fieldG" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#D2D4D7"/><stop offset="1" stop-color="#BFC1C4"/></radialGradient>
+  <filter id="blur" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="10"/></filter>
+
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#D99A14"/><stop offset=".45" stop-color="#FFE27F"/><stop offset="1" stop-color="#F2B526"/></linearGradient>
+  <clipPath id="ringBack"><rect x="-500" y="-300" width="1000" height="300"/></clipPath>
+  <clipPath id="ringFront"><rect x="-500" y="0" width="1000" height="300"/></clipPath>
+  <linearGradient id="chanX" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#505155"/><stop offset="1" stop-color="#5B5C60"/></linearGradient>
+</defs>
+<g transform="translate(737.5 481.5) rotate(-20)"><path d="M-330 0A330 106 0 1 0 330 0A330 106 0 1 0 -330 0ZM-297 -11A311 86 0 1 0 325 -11A311 86 0 1 0 -297 -11Z" fill-rule="evenodd" fill="url(#ring)" clip-path="url(#ringBack)"/></g><path d="M562.55 763A180.95 16 0 1 0 924.45 763A180.95 16 0 1 0 562.55 763Z" fill="#000" opacity=".22" filter="url(#blur)"/><path d="M723 238H752V745H723Z" fill="#5B5C60"/><path d="M573 478L902 478L884 505L603 505Z" fill="url(#chanX)"/><path d="M723 238L737.5 242L737.5 268L723 278Z" fill="url(#wallL)"/><path d="M737.5 242L752 238L752 278L737.5 268Z" fill="#A88A44"/><path d="M573 238H723V478H573Z" fill="url(#faceA)"/><path d="M573 238H723V240.2H573Z" fill="#FFE27F" opacity=".9"/><path d="M573 475.5H723V478H573Z" fill="#C38E05" opacity=".7"/><path d="M721 238H723V478H721Z" fill="#C38E05" opacity=".35"/><path d="M752 238H902V478H752Z" fill="url(#faceA)"/><path d="M752 238H902V240.2H752Z" fill="#FFE27F" opacity=".9"/><path d="M752 475.5H902V478H752Z" fill="#C38E05" opacity=".7"/><path d="M900 238H902V478H900Z" fill="#C38E05" opacity=".35"/><path d="M573 505H723V745H573Z" fill="url(#faceB)"/><path d="M573 505H723V507.2H573Z" fill="#FFE27F" opacity=".9"/><path d="M573 742.5H723V745H573Z" fill="#C38E05" opacity=".7"/><path d="M721 505H723V745H721Z" fill="#C38E05" opacity=".35"/><path d="M752 505H902V745H752Z" fill="url(#faceC)"/><path d="M752 505H902V507.2H752Z" fill="#FFE27F" opacity=".9"/><path d="M752 742.5H902V745H752Z" fill="#C38E05" opacity=".7"/><path d="M900 505H902V745H900Z" fill="#C38E05" opacity=".35"/><g transform="translate(737.5 481.5) rotate(-20)"><path d="M-330 0A330 106 0 1 0 330 0A330 106 0 1 0 -330 0ZM-297 -11A311 86 0 1 0 325 -11A311 86 0 1 0 -297 -11Z" fill-rule="evenodd" fill="url(#ring)" clip-path="url(#ringFront)"/></g>
+</svg>

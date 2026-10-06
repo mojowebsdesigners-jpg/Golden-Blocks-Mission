@@ -1,0 +1,280 @@
+@import 'tailwindcss';
+
+/* ───────────────────────── Design tokens ───────────────────────── */
+/*
+ * Brand palette (from the logo): mustard yellow #FFC93C, light grey #BFC1C4, grey #7C7F86, dark grey #34373C.
+ * The site is LIGHT by default. Token names are semantic roles kept from the original dark build:
+ *   night/coal/ink/card = surfaces · white = primary ink (headings) · silver-light/silver/muted = body/secondary text
+ *   gold* = mustard accents · champagne = small accent labels.
+ * Add `theme-dark` to any element to flip its subtree to the dark grey band (hero, footer, photo overlays).
+ */
+@theme {
+  --color-ink: #c9cbce;
+  --color-night: #d7d9dc;
+  --color-coal: #cdcfd2;
+  --color-card: #e6e7e9;
+  --color-line: rgb(47 50 55 / 0.14);
+  --color-line-strong: rgb(47 50 55 / 0.26);
+  --color-white: #2b2e33;
+
+  /* mustard: bright for fills, deep shades where it is used as text on light grey (legibility) */
+  --color-gold: #9a6f00;
+  --color-gold-bright: #ffc93c;
+  --color-gold-warm: #e0a713;
+  --color-gold-deep: #7a5800;
+  --color-champagne: #7a5800;
+  --color-silver: #50535a;
+  --color-silver-light: #3b3e44;
+  --color-muted: #595c63;
+  --color-soft: #3b3e44;
+
+  --font-serif: 'Newsreader', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --ease-cinema: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-ring-pulse: ring-pulse 6s var(--ease-cinema) infinite;
+  --animate-marquee: marquee 40s linear infinite;
+}
+
+@keyframes ring-pulse {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 0.9; transform: scale(1.015); }
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ───────────────────────── Base ───────────────────────── */
+@layer base {
+  /* Dark grey band: restores light-on-dark tokens for its whole subtree. */
+  .theme-dark {
+    --color-ink: #26282c;
+    --color-night: #2f3237;
+    --color-coal: #373a3f;
+    --color-card: #41444a;
+    --color-line: rgb(255 255 255 / 0.12);
+    --color-line-strong: rgb(255 255 255 / 0.2);
+    --color-white: #ffffff;
+    --color-gold: #ffc93c;
+    --color-gold-bright: #ffd566;
+    --color-gold-warm: #e0a713;
+    --color-gold-deep: #b5850f;
+    --color-champagne: #ffe3a0;
+    --color-silver: #bfc1c4;
+    --color-silver-light: #e6e7e9;
+    --color-muted: #a9acb2;
+    --color-soft: #f4f1ea;
+    color: var(--color-silver-light);
+  }
+
+  html {
+    background: var(--color-night);
+    color: var(--color-silver-light);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    scrollbar-color: #9a9da3 var(--color-night);
+  }
+  html.lenis, html.lenis body { height: auto; }
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  .lenis.lenis-stopped { overflow: hidden; }
+
+  body {
+    font-family: var(--font-sans);
+    background: var(--color-night);
+    overflow-x: hidden;
+    min-height: 100dvh;
+  }
+  ::selection { background: var(--color-gold-bright); color: #1d1f23; }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    color: var(--color-white);
+    text-wrap: balance;
+  }
+  p { text-wrap: pretty; }
+
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  img { max-width: 100%; }
+  /* Fieldsets default to min-inline-size: min-content, which can force horizontal overflow in grids. */
+  fieldset { min-inline-size: 0; }
+}
+
+/* ───────────────────────── Components ───────────────────────── */
+@layer components {
+  /* Gold metallic text (champagne highlight → warm gold), no glow */
+  /* Mustard "metal" text. Deeper on light grey so it stays legible; bright inside dark bands. */
+  .text-gold-metal {
+    background: linear-gradient(100deg, #b98400 0%, #d9a21b 30%, #9a6f00 58%, #c8920a 80%, #8a6400 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .text-silver-metal {
+    background: linear-gradient(100deg, #2b2e33 0%, #4a4e55 35%, #6b6e75 60%, #3b3e44 85%, #575a61 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .theme-dark .text-gold-metal { background-image: linear-gradient(100deg, #ffe3a0 0%, #ffc93c 30%, #e0a713 58%, #ffd566 80%, #d99a14 100%); }
+  .theme-dark .text-silver-metal { background-image: linear-gradient(100deg, #ffffff 0%, #d2d4d7 35%, #a9acb2 60%, #eceded 85%, #bfc1c4 100%); }
+
+  /* Mono eyebrow label, Keel-style */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-silver);
+  }
+  /* Chip label (translucent tag) */
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    padding: 0.4rem 0.7rem;
+    color: var(--color-champagne);
+    background: rgb(255 201 60 / 0.16);
+    border: 1px solid rgb(217 162 27 / 0.45);
+  }
+  .chip-silver {
+    color: var(--color-silver-light);
+    background: color-mix(in oklab, var(--color-white) 6%, transparent);
+    border-color: color-mix(in oklab, var(--color-white) 18%, transparent);
+  }
+
+  .display-xl { font-size: clamp(2.75rem, 7.2vw, 7.5rem); line-height: 0.95; letter-spacing: -0.03em; }
+  .display-lg { font-size: clamp(2.4rem, 5.4vw, 5.25rem); line-height: 1; letter-spacing: -0.025em; }
+  .display-md { font-size: clamp(2rem, 3.8vw, 3.6rem); line-height: 1.05; letter-spacing: -0.02em; }
+  .display-sm { font-size: clamp(1.5rem, 2.4vw, 2.25rem); line-height: 1.15; }
+  .lede { font-size: clamp(1.05rem, 1.35vw, 1.3rem); line-height: 1.6; color: var(--color-silver-light); font-weight: 400; }
+
+  .container-x { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: 1rem; }
+  @media (min-width: 640px) { .container-x { padding-inline: 2rem; } }
+  @media (min-width: 1024px) { .container-x { padding-inline: 5.5rem; } }
+
+  .hairline { border-color: var(--color-line); }
+  .rule { height: 1px; background: var(--color-line); }
+
+  /* Mustard button: brushed gradient in the logo's yellow, inner highlight, no outer glow */
+  .btn-gold {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #2b2e33;
+    padding: 0.95rem 1.25rem 0.95rem 1.4rem;
+    background: linear-gradient(135deg, #ffdc7a 0%, #ffc93c 40%, #f2b526 70%, #ffd566 100%);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.55), inset 0 -1px 0 rgb(0 0 0 / 0.2);
+    overflow: hidden;
+    isolation: isolate;
+    transition: transform 0.5s var(--ease-out-expo), filter 0.4s;
+  }
+  .btn-gold::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(110deg, transparent 30%, rgb(255 255 255 / 0.55) 48%, transparent 66%);
+    transform: translateX(-120%);
+    transition: transform 0.9s var(--ease-out-expo);
+    z-index: -1;
+  }
+  .btn-gold:hover::after { transform: translateX(120%); }
+  .btn-gold:hover { filter: brightness(1.04); }
+  .btn-gold:active { transform: translateY(1px); }
+
+  /* Dark grey button with arrow box (the logo's dark grey) */
+  .btn-dark {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.95rem 1.1rem 0.95rem 1.35rem;
+    background: #3a3d42;
+    border: 1px solid rgb(255 255 255 / 0.14);
+    transition: border-color 0.4s, background 0.4s;
+  }
+  .btn-dark:hover { border-color: rgb(255 201 60 / 0.7); background: #2f3237; }
+  .btn-arrow {
+    display: grid;
+    place-items: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border: 1px solid currentColor;
+    opacity: 0.85;
+    transition: transform 0.5s var(--ease-out-expo);
+  }
+  .btn-gold:hover .btn-arrow, .btn-dark:hover .btn-arrow { transform: translateX(3px); }
+
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.6s var(--ease-out-expo);
+  }
+  .link-underline:hover { background-size: 100% 1px; }
+
+  /* Form controls */
+  .field-label { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--color-muted); }
+  .field {
+    width: 100%;
+    background: color-mix(in oklab, var(--color-card) 70%, transparent);
+    border: 1px solid var(--color-line-strong);
+    color: var(--color-white);
+    padding: 0.85rem 1rem;
+    font-size: 0.98rem;
+    transition: border-color 0.3s, background 0.3s;
+    border-radius: 0;
+  }
+  .field::placeholder { color: color-mix(in oklab, var(--color-muted) 75%, transparent); }
+  .field:focus { outline: none; border-color: var(--color-gold-warm); background: var(--color-card); }
+  .field[aria-invalid='true'] { border-color: #d0705f; }
+  select.field { appearance: none; background-image: linear-gradient(45deg, transparent 50%, #7c7f86 50%), linear-gradient(135deg, #7c7f86 50%, transparent 50%); background-position: calc(100% - 18px) 55%, calc(100% - 13px) 55%; background-size: 5px 5px; background-repeat: no-repeat; padding-right: 2.5rem; }
+  select.field option { background: var(--color-card); color: var(--color-white); }
+
+  .grain::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.06;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

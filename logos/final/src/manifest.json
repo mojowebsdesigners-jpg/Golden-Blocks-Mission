@@ -1,0 +1,138 @@
+[
+  {
+    "id": "gold-bars",
+    "name": "Gold Bars",
+    "variant": "full",
+    "file": "golden-blocks_gold-bars_full.svg",
+    "W": 1000,
+    "H": 1150
+  },
+  {
+    "id": "gold-bars",
+    "name": "Gold Bars",
+    "variant": "flat",
+    "file": "golden-blocks_gold-bars_flat.svg",
+    "W": 1000,
+    "H": 1150
+  },
+  {
+    "id": "gold-bars",
+    "name": "Gold Bars",
+    "variant": "mono-dark",
+    "file": "golden-blocks_gold-bars_mono-dark.svg",
+    "W": 1000,
+    "H": 1150
+  },
+  {
+    "id": "gold-bars",
+    "name": "Gold Bars",
+    "variant": "mono-white",
+    "file": "golden-blocks_gold-bars_mono-white.svg",
+    "W": 1000,
+    "H": 1150
+  },
+  {
+    "id": "gold-bars-transparent",
+    "name": "Gold Bars, no background",
+    "variant": "full",
+    "file": "golden-blocks_gold-bars-transparent_full.svg",
+    "W": 860,
+    "H": 920
+  },
+  {
+    "id": "gold-bars-transparent",
+    "name": "Gold Bars, no background",
+    "variant": "flat",
+    "file": "golden-blocks_gold-bars-transparent_flat.svg",
+    "W": 860,
+    "H": 920
+  },
+  {
+    "id": "gold-bars-transparent",
+    "name": "Gold Bars, no background",
+    "variant": "full-on-dark",
+    "file": "golden-blocks_gold-bars-transparent_full-on-dark.svg",
+    "W": 860,
+    "H": 920
+  },
+  {
+    "id": "gold-bars-transparent",
+    "name": "Gold Bars, no background",
+    "variant": "mono-dark",
+    "file": "golden-blocks_gold-bars-transparent_mono-dark.svg",
+    "W": 860,
+    "H": 920
+  },
+  {
+    "id": "gold-bars-transparent",
+    "name": "Gold Bars, no background",
+    "variant": "mono-white",
+    "file": "golden-blocks_gold-bars-transparent_mono-white.svg",
+    "W": 860,
+    "H": 920
+  },
+  {
+    "id": "gold-bars-blocks-only",
+    "name": "Gold Bars, blocks only",
+    "variant": "full",
+    "file": "golden-blocks_gold-bars-blocks-only_full.svg",
+    "W": 408,
+    "H": 554
+  },
+  {
+    "id": "gold-bars-blocks-only",
+    "name": "Gold Bars, blocks only",
+    "variant": "flat",
+    "file": "golden-blocks_gold-bars-blocks-only_flat.svg",
+    "W": 408,
+    "H": 554
+  },
+  {
+    "id": "gold-bars-blocks-only",
+    "name": "Gold Bars, blocks only",
+    "variant": "mono-dark",
+    "file": "golden-blocks_gold-bars-blocks-only_mono-dark.svg",
+    "W": 408,
+    "H": 554
+  },
+  {
+    "id": "gold-bars-blocks-only",
+    "name": "Gold Bars, blocks only",
+    "variant": "mono-white",
+    "file": "golden-blocks_gold-bars-blocks-only_mono-white.svg",
+    "W": 408,
+    "H": 554
+  },
+  {
+    "id": "emblem-seal",
+    "name": "Emblem Seal",
+    "variant": "full",
+    "file": "golden-blocks_emblem-seal_full.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "id": "emblem-seal",
+    "name": "Emblem Seal",
+    "variant": "flat",
+    "file": "golden-blocks_emblem-seal_flat.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "id": "emblem-seal",
+    "name": "Emblem Seal",
+    "variant": "mono-dark",
+    "file": "golden-blocks_emblem-seal_mono-dark.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "id": "emblem-seal",
+    "name": "Emblem Seal",
+    "variant": "mono-white",
+    "file": "golden-blocks_emblem-seal_mono-white.svg",
+    "W": 1000,
+    "H": 1000
+  }
+]

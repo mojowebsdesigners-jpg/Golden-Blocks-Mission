@@ -1,0 +1,14 @@
+node_modules
+dist
+.vercel
+*.local
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+coverage
+
+# Presentation material (boards, walkthrough video) — not part of the site
+showcase/

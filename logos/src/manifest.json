@@ -1,0 +1,254 @@
+[
+  {
+    "concept": "01-classic",
+    "name": "Classic — straight from your sketch",
+    "note": "Four golden blocks on a soft light-grey tile, name in dark grey underneath. Exactly your drawing, cleaned up.",
+    "variant": "color",
+    "file": "01-classic_color.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "01-classic",
+    "name": "Classic — straight from your sketch",
+    "note": "Four golden blocks on a soft light-grey tile, name in dark grey underneath. Exactly your drawing, cleaned up.",
+    "variant": "dark",
+    "file": "01-classic_dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "01-classic",
+    "name": "Classic — straight from your sketch",
+    "note": "Four golden blocks on a soft light-grey tile, name in dark grey underneath. Exactly your drawing, cleaned up.",
+    "variant": "mono-dark",
+    "file": "01-classic_mono-dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "01-classic",
+    "name": "Classic — straight from your sketch",
+    "note": "Four golden blocks on a soft light-grey tile, name in dark grey underneath. Exactly your drawing, cleaned up.",
+    "variant": "mono-white",
+    "file": "01-classic_mono-white.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "02-cross",
+    "name": "Hidden Cross",
+    "note": "Same four blocks, but the top pair is shorter — the gaps between them quietly form a cross. Simple, meaningful, memorable.",
+    "variant": "color",
+    "file": "02-cross_color.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "02-cross",
+    "name": "Hidden Cross",
+    "note": "Same four blocks, but the top pair is shorter — the gaps between them quietly form a cross. Simple, meaningful, memorable.",
+    "variant": "dark",
+    "file": "02-cross_dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "02-cross",
+    "name": "Hidden Cross",
+    "note": "Same four blocks, but the top pair is shorter — the gaps between them quietly form a cross. Simple, meaningful, memorable.",
+    "variant": "mono-dark",
+    "file": "02-cross_mono-dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "02-cross",
+    "name": "Hidden Cross",
+    "note": "Same four blocks, but the top pair is shorter — the gaps between them quietly form a cross. Simple, meaningful, memorable.",
+    "variant": "mono-white",
+    "file": "02-cross_mono-white.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "03-rising",
+    "name": "Rising Blocks",
+    "note": "From the outline squares at the top of your sketch: solid blocks already laid, outlined blocks still to come — a mission that keeps building.",
+    "variant": "color",
+    "file": "03-rising_color.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "03-rising",
+    "name": "Rising Blocks",
+    "note": "From the outline squares at the top of your sketch: solid blocks already laid, outlined blocks still to come — a mission that keeps building.",
+    "variant": "dark",
+    "file": "03-rising_dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "03-rising",
+    "name": "Rising Blocks",
+    "note": "From the outline squares at the top of your sketch: solid blocks already laid, outlined blocks still to come — a mission that keeps building.",
+    "variant": "mono-dark",
+    "file": "03-rising_mono-dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "03-rising",
+    "name": "Rising Blocks",
+    "note": "From the outline squares at the top of your sketch: solid blocks already laid, outlined blocks still to come — a mission that keeps building.",
+    "variant": "mono-white",
+    "file": "03-rising_mono-white.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "04-emblem",
+    "name": "Round Emblem",
+    "note": "A badge with the name around the ring. Made for shirt chests, caps, stickers and stamps.",
+    "variant": "color",
+    "file": "04-emblem_color.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "04-emblem",
+    "name": "Round Emblem",
+    "note": "A badge with the name around the ring. Made for shirt chests, caps, stickers and stamps.",
+    "variant": "dark",
+    "file": "04-emblem_dark.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "04-emblem",
+    "name": "Round Emblem",
+    "note": "A badge with the name around the ring. Made for shirt chests, caps, stickers and stamps.",
+    "variant": "mono-dark",
+    "file": "04-emblem_mono-dark.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "04-emblem",
+    "name": "Round Emblem",
+    "note": "A badge with the name around the ring. Made for shirt chests, caps, stickers and stamps.",
+    "variant": "mono-white",
+    "file": "04-emblem_mono-white.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "05-horizontal",
+    "name": "Horizontal Lockup",
+    "note": "Mark on the left, name on the right — for the website header, letterheads, banners and the back of shirts.",
+    "variant": "color",
+    "file": "05-horizontal_color.svg",
+    "W": 2027,
+    "H": 520
+  },
+  {
+    "concept": "05-horizontal",
+    "name": "Horizontal Lockup",
+    "note": "Mark on the left, name on the right — for the website header, letterheads, banners and the back of shirts.",
+    "variant": "dark",
+    "file": "05-horizontal_dark.svg",
+    "W": 2027,
+    "H": 520
+  },
+  {
+    "concept": "05-horizontal",
+    "name": "Horizontal Lockup",
+    "note": "Mark on the left, name on the right — for the website header, letterheads, banners and the back of shirts.",
+    "variant": "mono-dark",
+    "file": "05-horizontal_mono-dark.svg",
+    "W": 2027,
+    "H": 520
+  },
+  {
+    "concept": "05-horizontal",
+    "name": "Horizontal Lockup",
+    "note": "Mark on the left, name on the right — for the website header, letterheads, banners and the back of shirts.",
+    "variant": "mono-white",
+    "file": "05-horizontal_mono-white.svg",
+    "W": 2027,
+    "H": 520
+  },
+  {
+    "concept": "06-gold-bars",
+    "name": "Gold Bars (premium)",
+    "note": "Dark grey tile, blocks with a light bevel so they read like gold bars. Two flat colours plus grey — still screen-printable.",
+    "variant": "color",
+    "file": "06-gold-bars_color.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "06-gold-bars",
+    "name": "Gold Bars (premium)",
+    "note": "Dark grey tile, blocks with a light bevel so they read like gold bars. Two flat colours plus grey — still screen-printable.",
+    "variant": "dark",
+    "file": "06-gold-bars_dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "06-gold-bars",
+    "name": "Gold Bars (premium)",
+    "note": "Dark grey tile, blocks with a light bevel so they read like gold bars. Two flat colours plus grey — still screen-printable.",
+    "variant": "mono-dark",
+    "file": "06-gold-bars_mono-dark.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "06-gold-bars",
+    "name": "Gold Bars (premium)",
+    "note": "Dark grey tile, blocks with a light bevel so they read like gold bars. Two flat colours plus grey — still screen-printable.",
+    "variant": "mono-white",
+    "file": "06-gold-bars_mono-white.svg",
+    "W": 1000,
+    "H": 1100
+  },
+  {
+    "concept": "07-icon",
+    "name": "Icon only",
+    "note": "Just the four blocks — for profile pictures, the website favicon, app icons, sleeve prints and embroidered caps.",
+    "variant": "color",
+    "file": "07-icon_color.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "07-icon",
+    "name": "Icon only",
+    "note": "Just the four blocks — for profile pictures, the website favicon, app icons, sleeve prints and embroidered caps.",
+    "variant": "dark",
+    "file": "07-icon_dark.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "07-icon",
+    "name": "Icon only",
+    "note": "Just the four blocks — for profile pictures, the website favicon, app icons, sleeve prints and embroidered caps.",
+    "variant": "mono-dark",
+    "file": "07-icon_mono-dark.svg",
+    "W": 1000,
+    "H": 1000
+  },
+  {
+    "concept": "07-icon",
+    "name": "Icon only",
+    "note": "Just the four blocks — for profile pictures, the website favicon, app icons, sleeve prints and embroidered caps.",
+    "variant": "mono-white",
+    "file": "07-icon_mono-white.svg",
+    "W": 1000,
+    "H": 1000
+  }
+]

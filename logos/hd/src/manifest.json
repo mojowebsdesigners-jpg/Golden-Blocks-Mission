@@ -1,0 +1,831 @@
+[
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "field",
+    "file": "golden-blocks_hd_1-orbit_field.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_1-orbit_transparent.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "flat",
+    "file": "golden-blocks_hd_1-orbit_flat.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "field",
+    "file": "golden-blocks_hd_2-isometric_field.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_2-isometric_transparent.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "flat",
+    "file": "golden-blocks_hd_2-isometric_flat.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "field",
+    "file": "golden-blocks_hd_3-sunrise_field.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_3-sunrise_transparent.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "flat",
+    "file": "golden-blocks_hd_3-sunrise_flat.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "field",
+    "file": "golden-blocks_hd_4-field-pin_field.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_4-field-pin_transparent.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "flat",
+    "file": "golden-blocks_hd_4-field-pin_flat.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "field",
+    "file": "golden-blocks_hd_5-blocks_field.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_5-blocks_transparent.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "flat",
+    "file": "golden-blocks_hd_5-blocks_flat.svg",
+    "W": 1600,
+    "H": 1000
+  },
+  {
+    "id": "6-blocks-no-text",
+    "name": "Blocks, no text",
+    "variant": "transparent",
+    "file": "golden-blocks_hd_6-blocks-no-text_transparent.svg",
+    "W": 578.8,
+    "H": 522
+  },
+  {
+    "id": "6-blocks-no-text",
+    "name": "Blocks, no text",
+    "variant": "flat",
+    "file": "golden-blocks_hd_6-blocks-no-text_flat.svg",
+    "W": 422,
+    "H": 472
+  },
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "field",
+    "file": "golden-blocks_square_1-orbit_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "transparent",
+    "file": "golden-blocks_square_1-orbit_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "1-orbit",
+    "name": "Orbit",
+    "variant": "flat",
+    "file": "golden-blocks_square_1-orbit_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "field",
+    "file": "golden-blocks_square_2-isometric_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "transparent",
+    "file": "golden-blocks_square_2-isometric_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "2-isometric",
+    "name": "Isometric",
+    "variant": "flat",
+    "file": "golden-blocks_square_2-isometric_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "field",
+    "file": "golden-blocks_square_3-sunrise_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "transparent",
+    "file": "golden-blocks_square_3-sunrise_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "3-sunrise",
+    "name": "Sunrise",
+    "variant": "flat",
+    "file": "golden-blocks_square_3-sunrise_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "field",
+    "file": "golden-blocks_square_4-field-pin_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "transparent",
+    "file": "golden-blocks_square_4-field-pin_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "4-field-pin",
+    "name": "Field Pin",
+    "variant": "flat",
+    "file": "golden-blocks_square_4-field-pin_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "field",
+    "file": "golden-blocks_square_5-blocks_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "transparent",
+    "file": "golden-blocks_square_5-blocks_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "5-blocks",
+    "name": "Blocks",
+    "variant": "flat",
+    "file": "golden-blocks_square_5-blocks_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "6-blocks-no-text",
+    "name": "Blocks, no text",
+    "variant": "transparent",
+    "file": "golden-blocks_square_6-blocks-no-text_transparent.svg",
+    "W": 578.8,
+    "H": 578.8,
+    "square": true
+  },
+  {
+    "id": "6-blocks-no-text",
+    "name": "Blocks, no text",
+    "variant": "flat",
+    "file": "golden-blocks_square_6-blocks-no-text_flat.svg",
+    "W": 472,
+    "H": 472,
+    "square": true
+  },
+  {
+    "id": "7-reference-blocks",
+    "name": "Reference Blocks",
+    "variant": "white",
+    "file": "golden-blocks_square_7-reference-blocks_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "7-reference-blocks",
+    "name": "Reference Blocks",
+    "variant": "field",
+    "file": "golden-blocks_square_7-reference-blocks_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "7-reference-blocks",
+    "name": "Reference Blocks",
+    "variant": "transparent",
+    "file": "golden-blocks_square_7-reference-blocks_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "7-reference-blocks",
+    "name": "Reference Blocks",
+    "variant": "flat",
+    "file": "golden-blocks_square_7-reference-blocks_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "8-reference-blocks-tall",
+    "name": "Reference Blocks, tall",
+    "variant": "white",
+    "file": "golden-blocks_square_8-reference-blocks-tall_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "8-reference-blocks-tall",
+    "name": "Reference Blocks, tall",
+    "variant": "field",
+    "file": "golden-blocks_square_8-reference-blocks-tall_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "8-reference-blocks-tall",
+    "name": "Reference Blocks, tall",
+    "variant": "transparent",
+    "file": "golden-blocks_square_8-reference-blocks-tall_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "8-reference-blocks-tall",
+    "name": "Reference Blocks, tall",
+    "variant": "flat",
+    "file": "golden-blocks_square_8-reference-blocks-tall_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "9-reference-blocks-tall-shadows",
+    "name": "Reference Blocks, tall with shadows",
+    "variant": "white",
+    "file": "golden-blocks_square_9-reference-blocks-tall-shadows_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "9-reference-blocks-tall-shadows",
+    "name": "Reference Blocks, tall with shadows",
+    "variant": "field",
+    "file": "golden-blocks_square_9-reference-blocks-tall-shadows_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "9-reference-blocks-tall-shadows",
+    "name": "Reference Blocks, tall with shadows",
+    "variant": "transparent",
+    "file": "golden-blocks_square_9-reference-blocks-tall-shadows_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "9-reference-blocks-tall-shadows",
+    "name": "Reference Blocks, tall with shadows",
+    "variant": "flat",
+    "file": "golden-blocks_square_9-reference-blocks-tall-shadows_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "10-tall-shadows-clean",
+    "name": "Tall blocks with shadows",
+    "variant": "white",
+    "file": "golden-blocks_square_10-tall-shadows-clean_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "10-tall-shadows-clean",
+    "name": "Tall blocks with shadows",
+    "variant": "field",
+    "file": "golden-blocks_square_10-tall-shadows-clean_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "10-tall-shadows-clean",
+    "name": "Tall blocks with shadows",
+    "variant": "transparent",
+    "file": "golden-blocks_square_10-tall-shadows-clean_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "10-tall-shadows-clean",
+    "name": "Tall blocks with shadows",
+    "variant": "flat",
+    "file": "golden-blocks_square_10-tall-shadows-clean_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "11-tall-shadows-ring",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "white",
+    "file": "golden-blocks_square_11-tall-shadows-ring_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "11-tall-shadows-ring",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "field",
+    "file": "golden-blocks_square_11-tall-shadows-ring_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "11-tall-shadows-ring",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "transparent",
+    "file": "golden-blocks_square_11-tall-shadows-ring_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "11-tall-shadows-ring",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "flat",
+    "file": "golden-blocks_square_11-tall-shadows-ring_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "12-tall-clean",
+    "name": "Tall blocks",
+    "variant": "white",
+    "file": "golden-blocks_square_12-tall-clean_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "12-tall-clean",
+    "name": "Tall blocks",
+    "variant": "field",
+    "file": "golden-blocks_square_12-tall-clean_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "12-tall-clean",
+    "name": "Tall blocks",
+    "variant": "transparent",
+    "file": "golden-blocks_square_12-tall-clean_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "12-tall-clean",
+    "name": "Tall blocks",
+    "variant": "flat",
+    "file": "golden-blocks_square_12-tall-clean_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "13-tall-ring",
+    "name": "Tall blocks with ring",
+    "variant": "white",
+    "file": "golden-blocks_square_13-tall-ring_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "13-tall-ring",
+    "name": "Tall blocks with ring",
+    "variant": "field",
+    "file": "golden-blocks_square_13-tall-ring_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "13-tall-ring",
+    "name": "Tall blocks with ring",
+    "variant": "transparent",
+    "file": "golden-blocks_square_13-tall-ring_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "13-tall-ring",
+    "name": "Tall blocks with ring",
+    "variant": "flat",
+    "file": "golden-blocks_square_13-tall-ring_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "14-shadows-clean-lighttext",
+    "name": "Tall blocks with shadows",
+    "variant": "white",
+    "file": "golden-blocks_square_14-shadows-clean-lighttext_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "14-shadows-clean-lighttext",
+    "name": "Tall blocks with shadows",
+    "variant": "field",
+    "file": "golden-blocks_square_14-shadows-clean-lighttext_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "14-shadows-clean-lighttext",
+    "name": "Tall blocks with shadows",
+    "variant": "transparent",
+    "file": "golden-blocks_square_14-shadows-clean-lighttext_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "14-shadows-clean-lighttext",
+    "name": "Tall blocks with shadows",
+    "variant": "flat",
+    "file": "golden-blocks_square_14-shadows-clean-lighttext_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "15-shadows-ring-lighttext",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "white",
+    "file": "golden-blocks_square_15-shadows-ring-lighttext_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "15-shadows-ring-lighttext",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "field",
+    "file": "golden-blocks_square_15-shadows-ring-lighttext_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "15-shadows-ring-lighttext",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "transparent",
+    "file": "golden-blocks_square_15-shadows-ring-lighttext_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "15-shadows-ring-lighttext",
+    "name": "Tall blocks with shadows and ring",
+    "variant": "flat",
+    "file": "golden-blocks_square_15-shadows-ring-lighttext_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "16-clean-lighttext",
+    "name": "Tall blocks",
+    "variant": "white",
+    "file": "golden-blocks_square_16-clean-lighttext_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "16-clean-lighttext",
+    "name": "Tall blocks",
+    "variant": "field",
+    "file": "golden-blocks_square_16-clean-lighttext_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "16-clean-lighttext",
+    "name": "Tall blocks",
+    "variant": "transparent",
+    "file": "golden-blocks_square_16-clean-lighttext_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "16-clean-lighttext",
+    "name": "Tall blocks",
+    "variant": "flat",
+    "file": "golden-blocks_square_16-clean-lighttext_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "17-ring-lighttext",
+    "name": "Tall blocks with ring",
+    "variant": "white",
+    "file": "golden-blocks_square_17-ring-lighttext_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "17-ring-lighttext",
+    "name": "Tall blocks with ring",
+    "variant": "field",
+    "file": "golden-blocks_square_17-ring-lighttext_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "17-ring-lighttext",
+    "name": "Tall blocks with ring",
+    "variant": "transparent",
+    "file": "golden-blocks_square_17-ring-lighttext_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "17-ring-lighttext",
+    "name": "Tall blocks with ring",
+    "variant": "flat",
+    "file": "golden-blocks_square_17-ring-lighttext_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "18-clean-lightcross",
+    "name": "Tall blocks, lighter cross",
+    "variant": "white",
+    "file": "golden-blocks_square_18-clean-lightcross_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "18-clean-lightcross",
+    "name": "Tall blocks, lighter cross",
+    "variant": "field",
+    "file": "golden-blocks_square_18-clean-lightcross_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "18-clean-lightcross",
+    "name": "Tall blocks, lighter cross",
+    "variant": "transparent",
+    "file": "golden-blocks_square_18-clean-lightcross_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "18-clean-lightcross",
+    "name": "Tall blocks, lighter cross",
+    "variant": "flat",
+    "file": "golden-blocks_square_18-clean-lightcross_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "19-ring-lightcross",
+    "name": "Tall blocks with ring, lighter cross",
+    "variant": "white",
+    "file": "golden-blocks_square_19-ring-lightcross_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "19-ring-lightcross",
+    "name": "Tall blocks with ring, lighter cross",
+    "variant": "field",
+    "file": "golden-blocks_square_19-ring-lightcross_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "19-ring-lightcross",
+    "name": "Tall blocks with ring, lighter cross",
+    "variant": "transparent",
+    "file": "golden-blocks_square_19-ring-lightcross_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "19-ring-lightcross",
+    "name": "Tall blocks with ring, lighter cross",
+    "variant": "flat",
+    "file": "golden-blocks_square_19-ring-lightcross_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "20-final-sda",
+    "name": "Golden Blocks Mission — chosen logo",
+    "variant": "white",
+    "file": "golden-blocks_square_20-final-sda_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "20-final-sda",
+    "name": "Golden Blocks Mission — chosen logo",
+    "variant": "field",
+    "file": "golden-blocks_square_20-final-sda_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "20-final-sda",
+    "name": "Golden Blocks Mission — chosen logo",
+    "variant": "transparent",
+    "file": "golden-blocks_square_20-final-sda_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "20-final-sda",
+    "name": "Golden Blocks Mission — chosen logo",
+    "variant": "flat",
+    "file": "golden-blocks_square_20-final-sda_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "21-final",
+    "name": "Golden Blocks Mission — final logo",
+    "variant": "white",
+    "file": "golden-blocks_square_21-final_white.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "21-final",
+    "name": "Golden Blocks Mission — final logo",
+    "variant": "field",
+    "file": "golden-blocks_square_21-final_field.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "21-final",
+    "name": "Golden Blocks Mission — final logo",
+    "variant": "transparent",
+    "file": "golden-blocks_square_21-final_transparent.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  },
+  {
+    "id": "21-final",
+    "name": "Golden Blocks Mission — final logo",
+    "variant": "flat",
+    "file": "golden-blocks_square_21-final_flat.svg",
+    "W": 1600,
+    "H": 1600,
+    "square": true
+  }
+]
